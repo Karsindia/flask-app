@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USER = "kar0402"  
+        DOCKERHUB_USER = "user_name"  
         IMAGE_NAME = "${DOCKERHUB_USER}/flask-api"
         TAG = "v1"
     }
